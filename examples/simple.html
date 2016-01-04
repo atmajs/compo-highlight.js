@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body style='height: 100%;'>
+	<script src='/node_modules/maskjs/lib/mask.js'></script>
+	<script src='./node_modules/highlight.js-postbuild/index.js'></script>
+	<link rel='stylesheet' href='./node_modules/highlight.js-postbuild/styles/default.css' />
+	
+	<script src='/lib/highlight.js'></script>	
+	<script type='text/mask' data-run="auto">
+		h4 > 'Mask Syntax'
+
+		<Highlight lang='mask'>
+			h4 > 'Foo ~[bar]'
+			define Foo {
+				div;
+			}
+		</Highlight>
+	</script>	
+</body>
+</html>

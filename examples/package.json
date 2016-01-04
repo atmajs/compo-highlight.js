@@ -1,0 +1,10 @@
+{
+	"dependencies": {
+		"highlight.js-postbuild": "latest"
+	},
+	"settings": {
+		"highlight": {
+			"langs": [ "mask" ]
+		}
+	}
+}
