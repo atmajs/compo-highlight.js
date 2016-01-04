@@ -1,5 +1,6 @@
 {
   "name": "compo-highlight.js",
+  "version": "0.8.10",
   "homepage": "https://github.com/atmajs/compo-highlight.js",
   "description": "Highlight.js wrapper for MaskJS",
   "main": "lib/Highlight.js",
