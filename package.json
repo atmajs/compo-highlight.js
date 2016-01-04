@@ -1,13 +1,13 @@
 {
   "name": "compo-highlight.js",
+  "homepage": "https://github.com/atmajs/compo-highlight.js",
+  "description": "Highlight.js wrapper for MaskJS",
+  "main": "lib/Highlight.js",
   "devDependencies": {
     "atma": ">0.9.26",
     "atma-loader-babel": ">0.0.0",
     "maskjs": "^0.54.16"
-  },
-  "scripts": {
-    "test": "atma test"
-  },
+  },  
   "atma": {
     "plugins": [
       "atma-loader-babel"
@@ -22,6 +22,6 @@
     }
   },
   "dependencies": {
-    "maskjs": "^0.54.15"
+    "maskjs": "latest"
   }
 }
