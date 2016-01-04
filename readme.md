@@ -13,7 +13,7 @@
 #### Attributes
 
 |Name  | Required |Description|
-|------|    -     |:---------:|
+|------|----------|:---------:|
 |lang  |    ✓     | Language Syntax |
 
 #### Install & Usage
