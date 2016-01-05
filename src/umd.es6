@@ -25,4 +25,5 @@
 	// import Highlight.es6
 
 	mask.define('Highlight', Highlight);
+	mask.parser.defineContentTag('Highlight');
 }));
