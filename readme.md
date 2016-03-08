@@ -15,6 +15,7 @@
 |Name  | Required |Description|
 |------|----------|:---------:|
 |lang  |    ✓     | Language Syntax |
+|tab-spaced  |        | Default: `4`. Replace tabs with spaces. Set `0` to disable |
 
 #### Install & Usage
 
