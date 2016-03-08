@@ -2,13 +2,14 @@ var Highlight = mask.Compo({
 	meta: {
 		attributes: {
 			lang: 'string'
-		}
+		},
+		mode: 'server'
 	},
-	render (model, ctx, container) {
+	onRenderStart (model) {
 		var source = j(this).text(model),
 			highlighted = hljs.highlight(this.xLang, mask.str.dedent(source));
 
-		var div = mask.render('pre > code.hljs.~lang > :html > "~text"', { text: highlighted.value, lang: this.xLang });
-		container.appendChild(div);
+		this.model = { text: highlighted.value };
+		this.nodes = mask.parse(`pre > code.hljs.${this.xLang} > :html > "~text"`);
 	}
 }); 

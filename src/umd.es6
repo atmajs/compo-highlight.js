@@ -10,7 +10,7 @@
 	
 	var _hljs = get('hljs', 'highlight.js-postbuild');
 	if (_hljs == null) 
-		throw Error('MaskJS was not loaded');
+		throw Error('`hljs` was not loaded');
 	
 	factory(_global, _mask, _mask.jmask, _hljs);
 	
