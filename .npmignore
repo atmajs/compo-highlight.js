@@ -1,6 +1,0 @@
-examples/
-builds/
-src/
-.gitignore
-.npmignore
-bower.json
